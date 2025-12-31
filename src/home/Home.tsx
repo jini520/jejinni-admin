@@ -23,6 +23,13 @@ const Home = () => {
           <p>프로젝트 정보와 상세 내용을 관리합니다</p>
           <span className="card-arrow">→</span>
         </Link>
+
+        <Link to="/careers" className="menu-card careers-card">
+          <div className="card-icon">💼</div>
+          <h2>Careers</h2>
+          <p>경력 정보와 사업 내역을 관리합니다</p>
+          <span className="card-arrow">→</span>
+        </Link>
       </div>
 
       <footer className="home-footer">
