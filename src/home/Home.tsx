@@ -30,6 +30,13 @@ const Home = () => {
           <p>경력 정보와 사업 내역을 관리합니다</p>
           <span className="card-arrow">→</span>
         </Link>
+
+        <Link to="/certifications" className="menu-card certifications-card">
+          <div className="card-icon">🏆</div>
+          <h2>Certifications</h2>
+          <p>자격증과 수상 내역을 관리합니다</p>
+          <span className="card-arrow">→</span>
+        </Link>
       </div>
 
       <footer className="home-footer">

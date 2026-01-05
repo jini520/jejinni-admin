@@ -5,6 +5,7 @@ import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import ProjectDetail from "./projects/ProjectDetail";
 import Careers from "./careers/Careers";
+import Certifications from "./certifications/Certifications";
 
 function App() {
   const location = useLocation();
@@ -42,6 +43,14 @@ function App() {
             >
               Careers
             </Link>
+            <Link
+              to="/certifications"
+              className={`nav-link ${
+                location.pathname === "/certifications" ? "active" : ""
+              }`}
+            >
+              Certifications
+            </Link>
           </div>
         </nav>
       )}
@@ -53,6 +62,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDetail />} />
           <Route path="/careers" element={<Careers />} />
+          <Route path="/certifications" element={<Certifications />} />
         </Routes>
       </main>
     </div>

@@ -123,6 +123,23 @@
   color: #4ade80;
 }
 
+/* Certifications Card */
+.certifications-card::before {
+  background: linear-gradient(90deg, #fbbf24 0%, #f59e0b 100%);
+}
+
+.certifications-card:hover {
+  border-color: #fbbf24;
+}
+
+.certifications-card .card-icon {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+}
+
+.certifications-card h2 {
+  color: #fbbf24;
+}
+
 /* Card Elements */
 .card-icon {
   width: 60px;

@@ -5,4 +5,5 @@ export * from './common';
 export * from './skills';
 export * from './projects';
 export * from './careers';
+export * from './certifications';
 
